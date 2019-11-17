@@ -14,8 +14,8 @@ if __name__ == '__main__':
     model.eval()
 
     #load the tokenizer
-    tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
-
+#     tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
+    tokenizer = BertTokenizer.from_pretrained('bert-base-multilingual-cased')
     embeddings=[]
 
     for file in File_names:
